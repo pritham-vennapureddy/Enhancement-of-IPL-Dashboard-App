@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.bg-container2 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bree serif";
+}

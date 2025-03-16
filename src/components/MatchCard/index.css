@@ -1,0 +1,15 @@
+.lostcolor {
+  color: #d91c1f;
+}
+.wincolor {
+  color: #18ed66;
+}
+.competinimagerecent {
+  height: 60px;
+  width: 60px;
+}
+.macthcardContainer {
+  background-color: #1e293b;
+  height: 300px;
+  width: 150px;
+}

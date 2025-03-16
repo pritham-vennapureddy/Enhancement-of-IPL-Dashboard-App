@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.teamcard {
+  border-style: solid;
+  border-color: #ffffff;
+  background-color: #ffffff33;
+  display: flex;
+  border-radius: 15px;
+  border-width: 1px;
+  padding: 10px;
+  height: 200px;
+  width: 500px;
+  margin: 20px;
+}
+.maihead {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}

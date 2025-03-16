@@ -1,0 +1,6 @@
+/* Write your CSS here */
+.recentcricket{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
