@@ -1,6 +1,67 @@
 /* Write your CSS here */
-.recentcricket{
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
+.recentcricket {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.rcbColor {
+  background-color: #f90f0f;
+}
+.kkrColor {
+  background-color: #5c32a0;
+}
+.kxpColor {
+  background-color: #c80101;
+}
+.cskColor {
+  background-color: #fcc90e;
+}
+.rrColor {
+  background-color: #00418b;
+}
+.miColor {
+  background-color: #055ec2;
+}
+.shColor {
+  background-color: #ff8001;
+}
+.ddColor {
+  background-color: #083c66;
+}
+.teammatchesContainer {
+  padding: 25px;
+}
+@media (max-width: 576px) {
+  .teamBanner {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+  }
+}
+@media (min-width: 576px) {
+  .teamBanner {
+    width: 100%;
+    height: auto;
+  }
+}
+.latestmatchititle {
+  color: white;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 30px;
+}
+.backbtn {
+  background-color: black;
+  height: 40px;
+  width: 200px;
+  border-radius: 15px;
+  border-width: 0px;
+  color: white;
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
 }

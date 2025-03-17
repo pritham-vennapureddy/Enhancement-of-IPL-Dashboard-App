@@ -32,15 +32,22 @@ const LatestMatch = props => {
 
   return (
     <div className="latestmatchContainer">
-      <div>
-        <p>{competingTeam}</p>
-        <p>{date}</p>
-        <p>{venue}</p>
-        <p>{result}</p>
+      <div className="competitngTeamSection">
+        <div>
+          <p className="comppetingTeamHeading">{competingTeam}</p>
+          <p className="comppetingTeamHeading">{date}</p>
+          <p className="competingTeamPara">{venue}</p>
+          <p className="competingTeamPara">{result}</p>
+        </div>
+        <div>
+          <img
+            src={competingTeamLogo}
+            alt={`latest match ${competingTeam}`}
+            className="competingLogo"
+          />
+        </div>
       </div>
-      <div>
-        <img src={competingTeamLogo} alt={`latest match ${competingTeam}`} />
-      </div>
+      <hr />
       <div>
         <h1>First Innings</h1>
         <p>{firstInnings}</p>

@@ -1,4 +1,29 @@
 /* Write your CSS here */
-.latestmatchContainer{
-    display: flex;
+.latestmatchContainer {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+}
+.competitngTeamSection {
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 576px) {
+  .competingLogo {
+    height: 300px;
+    width: 350px;
+  }
+}
+.comppetingTeamHeading {
+  color: white;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 30px;
+}
+.competingTeamPara {
+  color: white;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 20px;
 }

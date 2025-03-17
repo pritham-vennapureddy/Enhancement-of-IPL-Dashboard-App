@@ -9,9 +9,11 @@ import TeamCard from '../TeamCard'
 
 class Home extends Component {
   state = {teamsList: [], isLoading: true}
+
   componentDidMount() {
     this.getTeamList()
   }
+
   getTeamList = async () => {
     const response = await fetch('https://apis.ccbp.in/ipl')
     const data = await response.json()
@@ -24,12 +26,14 @@ class Home extends Component {
     const updatedList = teams.map(each => changecase(each))
     this.setState({teamsList: updatedList, isLoading: false})
   }
+
   render() {
     const {teamsList, isLoading} = this.state
+    console.log(teamsList)
     return (
       <div>
         {isLoading ? (
-          <div testid="loader">
+          <div>
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
